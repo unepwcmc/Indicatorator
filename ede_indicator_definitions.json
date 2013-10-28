@@ -1,0 +1,11 @@
+{
+  "cereal": {
+    "valueField": "value",
+    "ranges":[
+      {"minValue": 300, "message": "Excellent"},
+      {"minValue": 0, "message": "Poor"}
+    ]
+  }
+}
+
+
