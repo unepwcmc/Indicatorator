@@ -1,0 +1,85 @@
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:GRID_GEOData_Service">
+  <SOAP-ENV:Body>
+    <ns1:DataSearchResponse xmlns:ns1="urn:GRID_GEOData_Service">
+      <Return xsi:type="tns:DataResponse">
+        <TotalResults xsi:type="xsd:int">1</TotalResults>
+        <Name xsi:type="xsd:string">Cereals - Production</Name>
+        <Units xsi:type="xsd:string">Metric Tons</Units>
+        <DataProvider xsi:type="xsd:string">FAO</DataProvider>
+        <DataSets xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="tns:DataSet[1]">
+          <item xsi:type="tns:DataSet">
+            <Name xsi:type="xsd:string">United Arab Emirates</Name>
+            <GeoSubregion xsi:nil="true" xsi:type="xsd:string"/>
+            <ValueSets xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="tns:ValueSet[16]">
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">name</Year>
+                <Value xsi:type="xsd:string">United Arab Emirates</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">1995</Year>
+                <Value xsi:type="xsd:string">972</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">1996</Year>
+                <Value xsi:type="xsd:string">601</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">1997</Year>
+                <Value xsi:type="xsd:string">298</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">1998</Year>
+                <Value xsi:type="xsd:string">360</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">1999</Year>
+                <Value xsi:type="xsd:string">212</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2000</Year>
+                <Value xsi:type="xsd:string">364</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2001</Year>
+                <Value xsi:type="xsd:string">159</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2002</Year>
+                <Value xsi:type="xsd:string">116</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2003</Year>
+                <Value xsi:type="xsd:string">15</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2004</Year>
+                <Value xsi:type="xsd:string">20</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2005</Year>
+                <Value xsi:type="xsd:string">24</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2006</Year>
+                <Value xsi:type="xsd:string">26</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2007</Year>
+                <Value xsi:type="xsd:string">36</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2008</Year>
+                <Value xsi:type="xsd:string">36</Value>
+              </item>
+              <item xsi:type="tns:ValueSet">
+                <Year xsi:type="xsd:string">2009</Year>
+                <Value xsi:type="xsd:string">36</Value>
+              </item>
+            </ValueSets>
+          </item>
+        </DataSets>
+        <YearsServer xsi:type="xsd:string">name,y_1995,y_1996,y_1997,y_1998,y_1999,y_2000,y_2001,y_2002,y_2003,y_2004,y_2005,y_2006,y_2007,y_2008,y_2009,</YearsServer>
+      </Return>
+    </ns1:DataSearchResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
