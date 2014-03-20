@@ -29,5 +29,8 @@
     "supervisor": "~0.5.6",
     "q": "~0.9.7",
     "google-spreadsheets": "~0.3.0"
+  },
+  "setup": {
+    "osx": "npm install"
   }
 }
